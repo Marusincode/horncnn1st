@@ -1,0 +1,147 @@
+Namespace(num_hidden=32, epochs=10, batch_size=64, shuffle=False, seed=1, lr=0.01, h=1.0, alpha=0.04, omega=0.224, gamma=0.01)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9.91M/9.91M [00:01<00:00, 9.14MB/s]
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28.9k/28.9k [00:00<00:00, 119kB/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.65M/1.65M [00:00<00:00, 2.38MB/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.54k/4.54k [00:00<00:00, 19.5MB/s]
+epoch 0                                                                                                                                                                                    
+epoch 0 batch 0: test acc 7.92                                                                                                                                                             
+epoch 0 batch 100: test acc 25.98                                                                                                                                                          
+epoch 0 batch 200: test acc 42.49                                                                                                                                                          
+epoch 0 batch 300: test acc 58.20                                                                                                                                                          
+epoch 0 batch 400: test acc 61.33                                                                                                                                                          
+epoch 0 batch 500: test acc 61.96                                                                                                                                                          
+epoch 0 batch 600: test acc 62.91                                                                                                                                                          
+epoch 0 batch 700: test acc 64.87                                                                                                                                                          
+epoch 0 batch 800: test acc 66.03                                                                                                                                                          
+epoch 0 batch 900: test acc 65.48                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [07:25<00:00,  2.07it/s]
+val: 72.2000, test: 69.3000                                                                                                                                                                
+wrote checkpoint out/epoch00.pt                                                                                                                                                            
+epoch 1                                                                                                                                                                                    
+epoch 1 batch 0: test acc 69.48                                                                                                                                                            
+epoch 1 batch 100: test acc 63.37                                                                                                                                                          
+epoch 1 batch 200: test acc 68.98                                                                                                                                                          
+epoch 1 batch 300: test acc 73.50                                                                                                                                                          
+epoch 1 batch 400: test acc 73.70                                                                                                                                                          
+epoch 1 batch 500: test acc 76.49                                                                                                                                                          
+epoch 1 batch 600: test acc 77.85                                                                                                                                                          
+epoch 1 batch 700: test acc 77.87                                                                                                                                                          
+epoch 1 batch 800: test acc 77.09                                                                                                                                                          
+epoch 1 batch 900: test acc 78.70                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [07:13<00:00,  2.13it/s]
+val: 78.9000, test: 79.3400                                                                                                                                                                
+wrote checkpoint out/epoch01.pt                                                                                                                                                            
+epoch 2                                                                                                                                                                                    
+epoch 2 batch 0: test acc 79.03                                                                                                                                                            
+epoch 2 batch 100: test acc 76.32                                                                                                                                                          
+epoch 2 batch 200: test acc 81.28                                                                                                                                                          
+epoch 2 batch 300: test acc 79.94                                                                                                                                                          
+epoch 2 batch 400: test acc 80.37                                                                                                                                                          
+epoch 2 batch 500: test acc 82.70                                                                                                                                                          
+epoch 2 batch 600: test acc 81.80                                                                                                                                                          
+epoch 2 batch 700: test acc 82.89                                                                                                                                                          
+epoch 2 batch 800: test acc 80.86                                                                                                                                                          
+epoch 2 batch 900: test acc 79.84                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:35<00:00,  2.33it/s]
+val: 84.7000, test: 83.3700                                                                                                                                                                
+wrote checkpoint out/epoch02.pt                                                                                                                                                            
+epoch 3                                                                                                                                                                                    
+epoch 3 batch 0: test acc 83.15                                                                                                                                                            
+epoch 3 batch 100: test acc 83.02                                                                                                                                                          
+epoch 3 batch 200: test acc 81.33                                                                                                                                                          
+epoch 3 batch 300: test acc 83.26                                                                                                                                                          
+epoch 3 batch 400: test acc 81.74                                                                                                                                                          
+epoch 3 batch 500: test acc 83.73                                                                                                                                                          
+epoch 3 batch 600: test acc 83.97                                                                                                                                                          
+epoch 3 batch 700: test acc 84.12                                                                                                                                                          
+epoch 3 batch 800: test acc 85.45                                                                                                                                                          
+epoch 3 batch 900: test acc 85.29                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:33<00:00,  2.34it/s]
+val: 87.6000, test: 86.7300                                                                                                                                                                
+wrote checkpoint out/epoch03.pt                                                                                                                                                            
+epoch 4                                                                                                                                                                                    
+epoch 4 batch 0: test acc 86.69                                                                                                                                                            
+epoch 4 batch 100: test acc 84.80                                                                                                                                                          
+epoch 4 batch 200: test acc 84.28                                                                                                                                                          
+epoch 4 batch 300: test acc 85.70                                                                                                                                                          
+epoch 4 batch 400: test acc 87.09                                                                                                                                                          
+epoch 4 batch 500: test acc 87.80                                                                                                                                                          
+epoch 4 batch 600: test acc 86.61                                                                                                                                                          
+epoch 4 batch 700: test acc 88.13                                                                                                                                                          
+epoch 4 batch 800: test acc 86.45                                                                                                                                                          
+epoch 4 batch 900: test acc 85.22                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:33<00:00,  2.34it/s]
+val: 86.8000, test: 86.3700                                                                                                                                                                
+wrote checkpoint out/epoch04.pt                                                                                                                                                            
+epoch 5                                                                                                                                                                                    
+epoch 5 batch 0: test acc 87.01                                                                                                                                                            
+epoch 5 batch 100: test acc 85.83                                                                                                                                                          
+epoch 5 batch 200: test acc 87.79                                                                                                                                                          
+epoch 5 batch 300: test acc 89.13                                                                                                                                                          
+epoch 5 batch 400: test acc 89.19                                                                                                                                                          
+epoch 5 batch 500: test acc 89.15                                                                                                                                                          
+epoch 5 batch 600: test acc 87.89                                                                                                                                                          
+epoch 5 batch 700: test acc 89.83                                                                                                                                                          
+epoch 5 batch 800: test acc 89.68                                                                                                                                                          
+epoch 5 batch 900: test acc 90.63                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:32<00:00,  2.35it/s]
+val: 89.6000, test: 89.8200                                                                                                                                                                
+wrote checkpoint out/epoch05.pt                                                                                                                                                            
+epoch 6                                                                                                                                                                                    
+epoch 6 batch 0: test acc 89.51                                                                                                                                                            
+epoch 6 batch 100: test acc 89.67                                                                                                                                                          
+epoch 6 batch 200: test acc 90.66                                                                                                                                                          
+epoch 6 batch 300: test acc 89.04                                                                                                                                                          
+epoch 6 batch 400: test acc 90.02                                                                                                                                                          
+epoch 6 batch 500: test acc 91.09                                                                                                                                                          
+epoch 6 batch 600: test acc 90.51                                                                                                                                                          
+epoch 6 batch 700: test acc 91.53                                                                                                                                                          
+epoch 6 batch 800: test acc 89.97                                                                                                                                                          
+epoch 6 batch 900: test acc 91.24                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:32<00:00,  2.35it/s]
+val: 92.1000, test: 91.3000                                                                                                                                                                
+wrote checkpoint out/epoch06.pt                                                                                                                                                            
+epoch 7                                                                                                                                                                                    
+epoch 7 batch 0: test acc 91.01                                                                                                                                                            
+epoch 7 batch 100: test acc 90.58                                                                                                                                                          
+epoch 7 batch 200: test acc 89.47                                                                                                                                                          
+epoch 7 batch 300: test acc 90.96                                                                                                                                                          
+epoch 7 batch 400: test acc 90.59                                                                                                                                                          
+epoch 7 batch 500: test acc 87.30                                                                                                                                                          
+epoch 7 batch 600: test acc 90.36                                                                                                                                                          
+epoch 7 batch 700: test acc 91.64                                                                                                                                                          
+epoch 7 batch 800: test acc 91.09                                                                                                                                                          
+epoch 7 batch 900: test acc 89.31                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:32<00:00,  2.35it/s]
+val: 92.0000, test: 91.8900                                                                                                                                                                
+wrote checkpoint out/epoch07.pt                                                                                                                                                            
+epoch 8                                                                                                                                                                                    
+epoch 8 batch 0: test acc 91.69                                                                                                                                                            
+epoch 8 batch 100: test acc 90.23                                                                                                                                                          
+epoch 8 batch 200: test acc 91.75                                                                                                                                                          
+epoch 8 batch 300: test acc 91.43                                                                                                                                                          
+epoch 8 batch 400: test acc 91.31                                                                                                                                                          
+epoch 8 batch 500: test acc 90.43                                                                                                                                                          
+epoch 8 batch 600: test acc 90.37                                                                                                                                                          
+epoch 8 batch 700: test acc 92.01                                                                                                                                                          
+epoch 8 batch 800: test acc 92.28                                                                                                                                                          
+epoch 8 batch 900: test acc 88.02                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [06:17<00:00,  2.44it/s]
+val: 92.6000, test: 92.6900                                                                                                                                                                
+wrote checkpoint out/epoch08.pt                                                                                                                                                            
+epoch 9                                                                                                                                                                                    
+epoch 9 batch 0: test acc 92.83                                                                                                                                                            
+epoch 9 batch 100: test acc 90.25                                                                                                                                                          
+epoch 9 batch 200: test acc 92.54                                                                                                                                                          
+epoch 9 batch 300: test acc 90.96                                                                                                                                                          
+epoch 9 batch 400: test acc 92.64                                                                                                                                                          
+epoch 9 batch 500: test acc 91.46                                                                                                                                                          
+epoch 9 batch 600: test acc 91.64                                                                                                                                                          
+epoch 9 batch 700: test acc 91.27                                                                                                                                                          
+epoch 9 batch 800: test acc 91.37                                                                                                                                                          
+epoch 9 batch 900: test acc 92.67                                                                                                                                                          
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 922/922 [39:29<00:00,  2.57s/it]
+val: 92.5000, test: 92.6500                                                                                                                                                                
+wrote checkpoint out/epoch09.pt                                                                                                                                                            
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [1:40:36<00:00, 603.66s/it]
+best test: 92.69
