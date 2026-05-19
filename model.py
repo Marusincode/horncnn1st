@@ -2,10 +2,7 @@ import math
 import torch
 import torch.nn as nn
 
-# ============================================================
-# Original HORN model (unchanged)
-# ============================================================
-
+#horn
 class HORN(nn.Module):
     """
     Harmonic Oscillator Recurrent Network (HORN)
@@ -76,10 +73,7 @@ class HORN(nn.Module):
         ret['output'] = output
         return ret
 
-
-# ============================================================
-# CNN Patch Processor (NEW)
-# ============================================================
+#process in patches with cnn
 
 class PatchCNN(nn.Module):
     """
@@ -116,16 +110,12 @@ class PatchCNN(nn.Module):
         x = self.projection(x)
         return x
 
-
-# ============================================================
-# Patch Sequence HORN (Main Model)
-# ============================================================
-
+#combining horn with cnn
 class PatchSequenceHORN(nn.Module):
     """
-    Converts image to sequence of overlapping patches,
-    processes each patch through CNN,
-    then HORN processes the patch sequence
+    Convert image to sequence of overlapping patches,
+    process each patch through CNN,
+    HORN through the patch sequence
     """
     
     def __init__(self, patch_size, stride, feature_dim, num_hidden, num_output, 
@@ -142,12 +132,7 @@ class PatchSequenceHORN(nn.Module):
         self.horn = HORN(feature_dim, num_hidden, num_output, h, alpha, omega, gamma)
     
     def forward(self, image, random_init=None, record=False):
-        """
-        Args:
-            image: (batch, 1, height, width) - e.g., (batch, 1, 28, 28)
-        Returns:
-            Same as HORN forward
-        """
+        
         batch_size = image.shape[0]
         height = image.shape[2]
         width = image.shape[3]
